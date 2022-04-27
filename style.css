@@ -11,7 +11,7 @@
     background-color: #00B29B;
     padding: 25px;
     margin-top: 20px;
-    min-height: 604px;
+    
     
 }
 body{
@@ -88,6 +88,7 @@ div{
     border: solid 2px;
     padding: 10px;
     margin-bottom: 10px;
+    min-height: 603.27px;
 }
 
 button{
