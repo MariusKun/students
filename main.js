@@ -184,6 +184,7 @@ function renderStudent(studentData) {
   });
   let deleteStudentButton = document.createElement('button');
   deleteStudentButton.textContent = 'Ištrinti studentą';
+  deleteStudentButton.style = `cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png), auto;`
   deleteStudentButton.addEventListener('click', () => {
     studentItem.remove();
     alertMessage(`Studentas (${personName} ${personSurname}) sėkmingai ištrintas.`);
