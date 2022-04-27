@@ -117,6 +117,7 @@ function itKnowledgeOutputReset() {
 function alertMessage(text, elementClass = '') {
   let alertElement = document.querySelector('#alert');
   alertElement.textContent = text;
+  alertElement.style.color = 'red';
   if (elementClass) {
     alertElement.classList.add(elementClass);
   }
