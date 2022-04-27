@@ -1,0 +1,108 @@
+.input-error {
+    border: 2px solid red;
+}
+
+#student-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    margin: auto;
+    row-gap: 15px;
+    background-color: #00B29B;
+    padding: 25px;
+    
+}
+#search{
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    margin: auto;
+    row-gap: 15px;
+    margin-top: 10px;
+    background-color: #00B29B;
+    padding: 25px;
+    margin-bottom: 10px;
+}
+
+input[type="submit" i] {
+    background-color: #9AAEBB;
+    border-radius: 10px;
+    width: 50%;
+    height: 30px;
+    align-items: center;
+}
+
+.error-alert{
+    color: red;
+}
+
+label{
+    
+    padding-bottom: 5px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-wrap: nowrap;
+}
+
+.grupe{
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+
+}
+
+.student-item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    justify-content: space-between;
+    background-color: #9AAEBB;
+    width: 20%;
+    border: solid 2px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: #00B29B;
+    width: 50%;
+    border-radius: 10px;
+ 
+    height: 30px;
+    align-items: center;
+}
+
+input[type="text" i] {
+    padding: 10px 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+input[type="tel" i] {
+    padding: 10px 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+} */
+input[type="number" i] {
+    padding: 10px 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+input[type="email" i] {
+    padding: 10px 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+select{
+    padding: 10px 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
