@@ -49,6 +49,20 @@ input[type="submit" i] {
     width: 50%;
     height: 30px;
     align-items: center;
+    transition-duration: 0.3s;
+}
+
+
+input[type="submit" i]:hover{
+    background-color: #bff00d;
+    width: 50%;
+    border-radius: 10px;
+    color: rgb(204, 137, 12);
+    height: 30px;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
 }
 
 .error-alert{
